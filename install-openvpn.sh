@@ -28,7 +28,8 @@ apt-get install -y \
     make \
     libtool \
     gcc \
-    ca-certificates
+    ca-certificates \
+    expect
 
 mkdir -p "$(dirname "${INSTALL_DIR}")"
 
